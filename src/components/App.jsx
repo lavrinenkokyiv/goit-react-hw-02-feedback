@@ -7,13 +7,10 @@ import Notification from './Notification/Notification';
 
 export class App extends React.Component {
   state = {
-    visible: false,
     good: 0,
     neutral: 0,
     bad: 0,
-    total: 0,
-    positiveFeedbeck: 0,
-  };
+      };
 
   addGood = () => {
     this.setState({ visible: true });
